@@ -1,5 +1,5 @@
 #if = Si ... (primero crear una variable)
-Calificación = input("Introduce tu calificación de la certificación AZ-900 Fundamentals: ")
+Calificación = input("Introduce tu calificación de la certificación AZ-900 Fundamentals:701 ")
 Calificación = int(Calificación)
 # Preguntamos si la calificación es mayor a 700
 if Calificación < 700 :
@@ -9,7 +9,7 @@ elif Calificación > 1000 :
 else :
     print("Felicidades, pasa por tu certificado crack") # Si no se cumple el if anterior, entonces pasa esta linea de else
 # Verificador de mayoria de edad
-Edad = input("Introduce tu edad ")
+Edad = input("Introduce tu edad: ")
 Edad = int(Edad)
 if Edad >= 18 and Edad <= 100 :
     print("Bienvenido al mamitas")
@@ -19,3 +19,4 @@ elif Edad < 0 :
     print("Ni que fueras viajero del tiempo we")
 else :
     print("No puedes llevarte esos cigarros chaval")
+# En Python no hay switch case
