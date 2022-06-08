@@ -2,6 +2,8 @@
 ## Curso básico de Python.
 En este curso aprenderás a programar en Python.
 ![Logo de Python](https://www.python.org/static/opengraph-icon-200x200.png)
+
+
 **Requisitos**
 - Python 3.6 o superior
 - Computadora con Windows, Linux o MacOs
