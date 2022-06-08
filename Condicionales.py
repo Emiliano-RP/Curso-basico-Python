@@ -1,9 +1,12 @@
 #if = Si ... (primero crear una variable)
-Calificación = input("Introduce tu calificación de la certificación AZ-900 Fundamentals:701 ")
+Calificación = input("Introduce tu calificación de la certificación AZ-900 Fundamentals: ")
 Calificación = int(Calificación)
 # Preguntamos si la calificación es mayor a 700
 if Calificación < 700 :
     print("Vesss, por no estudiar, BURRO") # Si es menor a 700, imprime esto
+elif Calificación == 700 :
+    print("Vale, estas en el sitio")
+    print("Apenas panzaste")
 elif Calificación > 1000 :
     print("Mientesss, no puedes sacar más de 1000")
 else :
