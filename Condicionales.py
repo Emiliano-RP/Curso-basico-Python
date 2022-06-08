@@ -4,8 +4,7 @@ Calificación = int(Calificación)
 # Preguntamos si la calificación es mayor a 700
 if Calificación < 700 :
     print("Vesss, por no estudiar, BURRO") # Si es menor a 700, imprime esto
-elif Calificación == 700 :
-    print("Vale, estas en el sitio")
+elif Calificación == 700 :  # Si es igual a 700, imprime esto
     print("Apenas panzaste")
 elif Calificación > 1000 :
     print("Mientesss, no puedes sacar más de 1000")
